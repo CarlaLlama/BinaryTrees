@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 /**
@@ -10,7 +9,7 @@ import java.util.Scanner;
  * @author Stephan Jamieson 
  * @version 25/2/2015
  */
-public class BSTHarness {
+public class UserTreeInput {
 
 
 	public static void main(String args[]) throws FileNotFoundException {
@@ -30,7 +29,7 @@ public class BSTHarness {
         
         
         /*
-		 * Initialising tree one, writing to System.out and file
+		 * Initializing tree one, writing to System.out and file
 		 */
 	    SimpleBST treeOne = new  SimpleBST(); 
         
@@ -43,7 +42,7 @@ public class BSTHarness {
     	scannerOne.close();
     	
         /*
-		 * Initialising tree one, writing to System.out and file
+		 * Initializing tree one, writing to System.out and file
 		 */
     	SimpleBST treeTwo = new  SimpleBST();
 	
